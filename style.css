@@ -53,17 +53,17 @@ h1 {
     margin-top: 30px;
 }
 .products {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 20px;
+    justify-items: center;
     margin: 30px;
 }
 .product {
     border: 2px solid #8B0000;
     padding: 10px;
     text-align: center;
-    width: 200px;
+    width: 150px;
     background-color: #111;
 }
 .product img {
