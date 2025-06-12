@@ -1,9 +1,9 @@
 
 function toggleMenu() {
-    var menu = document.getElementById('menu');
-    if (menu.classList.contains('hidden')) {
-        menu.classList.remove('hidden');
+    var menu = document.getElementById('sideMenu');
+    if (menu.style.width === '250px') {
+        menu.style.width = '0';
     } else {
-        menu.classList.add('hidden');
+        menu.style.width = '250px';
     }
 }
