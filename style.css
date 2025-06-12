@@ -14,19 +14,19 @@ header {
     background-color: #1e1e1e;
     padding: 10px 20px;
 }
-.logo {
-    font-size: 2rem;
-    color: #39FF14;
-}
 .burger {
     font-size: 2rem;
     cursor: pointer;
     color: #39FF14;
 }
+.logo {
+    font-size: 2rem;
+    color: #39FF14;
+}
 nav {
     position: absolute;
     top: 60px;
-    right: 20px;
+    left: 20px;
     background-color: #000000;
     padding: 10px;
     border: 1px solid #39FF14;
